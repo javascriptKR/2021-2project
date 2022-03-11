@@ -1,0 +1,19 @@
+{
+    "manifest_version":2,
+    "name": "casper new tab",
+    "short_name": "new tab",
+    "version":"1.0",
+    "description":"다양한 기능을 가질 예정인 new tab extension",
+    "chrome_url_overrides":{
+        "newtab":"index.html"
+    },
+    "permissions": ["storage"],
+    "browser_action":{
+        "default_popup":"setting.html"
+    }
+    ,
+    "icons": {
+    "128": "icon/CASPER.png"
+    },
+    "content_security_policy":"script-src 'self' https://apis.google.com; object-src 'self'"
+}

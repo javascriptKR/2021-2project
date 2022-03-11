@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>>new tab</title>
+    <link rel="stylesheet" href="./CSS/indexstyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="./js/shortcut.js"></script>
+    <script src="./js/setting.js"></script>
+    <script src='./js/background.js'></script>
+</head>
+<body>
+    <div id = 'container'>
+        <div id = 'header'>
+            <div id = 'setting'>
+                <a href="./setting.html"><img id="settingicon" src="icon/settings.png"></a>
+            </div>
+            <div id="clock">
+                <span id='day_clock'></span>
+            </div>
+        </div>
+
+        <div id = 'content'>
+            <div id='searchbar'>
+                <p>
+                    <span>C</span><span>a</span><span>s</span><span>p</span><span>e</span><span>r</span><img src='icon/CASPER.png'/>
+                </p>
+                <form method=get action="https://www.google.co.kr/search" target="_blank">
+                    <table bgcloor="#FFFFFF">
+                            <input type=text name=q maxlength="255" value="" class="form-control rounded-pill" placeholder="🏸 Google 검색 또는 url 입력" autofocus/>
+                    </table>
+                </form>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <div id="short">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
